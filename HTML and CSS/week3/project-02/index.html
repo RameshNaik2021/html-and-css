@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-2</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 15vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+        }
+         nav ul{
+            display: flex;
+            align-items: center;
+         }
+         nav ul li{
+            list-style: none;
+            margin-right: 50px;
+            font-weight: 500;
+            font-size: 20px;
+         }
+         nav ul li:first-child{
+            color: rgb(14, 129, 20);
+         }
+         main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 100px;
+            justify-content: space-around;
+            margin-top: 50px;
+            
+         }
+         .left h1{
+            font-size: 100px;
+
+         }
+         .left p{
+            font-size: 25px;
+            color: rgb(91, 90, 90);
+         }
+         .bottomangle{
+            position: relative;
+            left: 80%;
+            top: 30px;
+         }
+         .scope{
+           position: relative;
+           bottom: 700px;
+          
+         }
+         .button{
+            padding: 25px 55px;
+             border-radius: 15px;
+             background-color: rgb(17, 160, 77);
+             color: aliceblue;
+             font-weight: 600;
+            margin-top: 3%;
+            border-radius: 50px;
+             font-size: 30px;
+             font-weight: 600;
+         }
+         .right{
+            position: relative;
+         }
+         .two{
+            position: absolute;
+            bottom: 950px;
+            left: 70px;
+         }
+         .three{
+            position: relative;
+            bottom: 800px;
+           
+           
+         }
+         .mouse{
+            position: relative;
+            left: 830px;
+            bottom: 950px;
+         }
+    </style>
+<body>
+    <nav>
+        <img src="./images/logo.png" alt="">   
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our services</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+      <main>
+         
+            <div class="left">
+                <img src="./images/topAngle.png" alt="">
+                <h1>Complete Health <br>Care solutions for <br>Everyone</h1>
+                <p>we are always available for our patients with emergen problems.you can <br>easily reach us 24/7.We focused on highest quality</p>
+                <img class="bottomangle" src="./images/bottomAngle.png" alt="">
+                <button class="button">Make Appointment</button>
+                <img class="scope" src="./images/stethoscope.png" alt="">
+                <img class="mouse" src="./images/mouse.png" alt="">
+              
+               
+            </div>
+            <div class="right">
+                <img class="one" src="./images/greenBox.png" alt="">
+                <img class="two" src="./images/yellowBox.png" alt="">
+                <img class="three" src="./images/doctor.png" alt="">
+            </div>
+        
+      </main>
+</body>
+</html>
